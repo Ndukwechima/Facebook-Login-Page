@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+width: 80%;
+margin: 50px auto;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+    background: rgb(48, 48, 189);
+    font-size: 16px;
+}
+
+.main-container{
+    height: 690px;
+    background:rgba(28,0,181,0.3);
+    display: flex;
+}
+.left-container{
+ flex-basis:50% ;
+ padding: 40px 60px;
+  box-shadow: 0px 4px 17px 0px rgba(28,0,181,0.7);
+
+}
+.right-container{
+    flex-basis: 50%;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+}
+.logo{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.facebook{
+    padding-top: 30px;
+    text-align:center ;
+    color: white;
+    letter-spacing:1px;
+}
+.profile-name{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-btn{
+    position: relative;
+    background: rgba(28,0,181,0.3);
+    color: white;
+    text-align: center;
+    padding: 10px;
+     width: 15rem;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+    opacity: 0.9;
+
+}
+.not-you{
+    text-align: center;
+    color: rgb(48, 48, 189,0.8);
+    letter-spacing: 1px;
+    font-size: 20px;
+     margin-top: 50px;
+    font-weight: 500;
+}
+form{
+    padding: 0px;
+    height: 25rem;
+    box-shadow: 0px 4px 10px 0px rgba(235, 235, 236, 0.3);
+}
+.login-btn{
+    background: rgb(48, 48, 189);
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+     width: 15rem;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+input{
+    letter-spacing: 1px;
+margin-top: 40px;
+    width: 30rem;
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 0px;
+    border-bottom: 1px solid rgb(104, 104, 217);
+
+}
+.input-div{
+    text-align: center;
+}
+.email{
+margin-top: 130px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    margin-top: 20px;
+    
+
+}
+.img-div{
+    margin-top:190px;
+    text-align: center;
+}
+.btn-create{
+    position: relative;
+    background: none;
+    color:rgb(86, 86, 202);
+    width: 15rem;
+    height: 33px;
+    border-radius: 20px;
+    border:1px solid rgb(48, 48, 189);
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left:11rem; 
+    margin-top: 30px; 
+    opacity: .9;
+}
+.fa-greater-than {
+    width: 35px;
+    height: 35px;
+    background: #ffffff;
+    border-radius: 50%;
+    color: #737171;
+    position: absolute;
+    left:597px;
+    padding-top: 8px;
+    bottom: 163px;
+    
+}
+.fa-plus{
+    width: 33px;
+    height: 33px;
+    background: rgba(28,0,181, 0.8);
+    border-radius: 50%;
+    color: #ffffff;
+    position: absolute;
+    bottom: 166px;
+    right: 398px;
+    padding-top:7px;
+    padding-left: 12px;
+}
+::placeholder{
+    text-align: center;
+    font-weight: bold;
+    opacity: .9;
+}
